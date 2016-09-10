@@ -108,6 +108,18 @@
     #+HTML: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16814.021452988596!2d139.76685946119355!3d35.66848801247772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be74819406d%3A0x1e8b565e11fc118!2sKabuki-za!5e0!3m2!1sen!2sat!4v1473517580050" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 * eating
   http://www.japan-tourist-guide.com/japanese-food-guide.php
+** sushi
+*** tenkazushi (天下寿司 池袋店)
+**** location
+     #+HTML: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1573.2774508689859!2d139.70944133342635!3d35.73222115905495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2638e0f7edf03e75!2z5aSp5LiL5a-_5Y-4IOaxoOiii-W6lw!5e0!3m2!1sen!2sat!4v1473525598710" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+** shabu shabu
+   - [[https://hubjapan.io/articles/top-10-tokyo-shabu-shabu-shops-that-make-you-want-more][listing-pricy]]
+   - [[https://tokyocheapo.com/food-and-drink/nabe-restaurants-tokyo/][listing-cheap]]
+*** Kisoji Shinjuku
+**** links
+     [[https://www.tripadvisor.com/Restaurant_Review-g1066457-d1702814-Reviews-Kisoji_Shinjuku-Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html][tripadvisor]]
+** yaki-niku
+
 * museums
 ** mori art museum                                       :art:space:universe:
 *** links
