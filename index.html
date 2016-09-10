@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title></title>
+<!-- 2016-09-11 Sun 00:39 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Org-mode">
+<meta name="author" content="Graf Manuel">
+
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style type="text/css">
+/* org mode styles on top of twbs */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 18px;
+    margin-bottom: 105px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 101px;
+    background-color: #f5f5f5;
+}
+
+footer > div {
+    padding: 10px;
+}
+
+footer p {
+    margin: 0 0 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#table-of-contents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote p {
+    font-size: 18px;
+}
+
+pre {
+    font-size: 16px;
+}
+
+.footpara {
+    display: inline-block;
+}
+
+figcaption {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+/* from twbs docs */
+
+.bs-docs-sidebar.affix {
+    position: static;
+}
+@media (min-width: 768px) {
+    .bs-docs-sidebar {
+        padding-left: 20px;
+    }
+}
+
+/* All levels of nav */
+.bs-docs-sidebar .nav > li > a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999;
+}
+.bs-docs-sidebar .nav > li > a:hover,
+.bs-docs-sidebar .nav > li > a:focus {
+    padding-left: 19px;
+    color: #A1283B;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 1px solid #A1283B;
+}
+.bs-docs-sidebar .nav > .active > a,
+.bs-docs-sidebar .nav > .active:hover > a,
+.bs-docs-sidebar .nav > .active:focus > a {
+    padding-left: 18px;
+    font-weight: bold;
+    color: #A1283B;
+    background-color: transparent;
+    border-left: 2px solid #A1283B;
+}
+
+/* Nav: second level (shown on .active) */
+.bs-docs-sidebar .nav .nav {
+    display: none; /* Hide by default, but at >768px, show it */
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav > li > a:focus {
+    padding-left: 29px;
+}
+.bs-docs-sidebar .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav > .active:focus > a {
+    padding-left: 28px;
+    font-weight: 500;
+}
+
+/* Nav: third level (shown on .active) */
+.bs-docs-sidebar .nav .nav .nav {
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav .nav > li > a:focus {
+    padding-left: 39px;
+}
+.bs-docs-sidebar .nav .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav .nav > .active:focus > a {
+    padding-left: 38px;
+    font-weight: 500;
+}
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+    .bs-docs-sidebar .nav > .active > ul {
+        display: block;
+    }
+    /* Widen the fixed sidebar */
+    .bs-docs-sidebar.affix,
+    .bs-docs-sidebar.affix-bottom {
+        width: 213px;
+    }
+    .bs-docs-sidebar.affix {
+        position: fixed; /* Undo the static from mobile first approach */
+        top: 20px;
+    }
+    .bs-docs-sidebar.affix-bottom {
+        position: absolute; /* Undo the static from mobile first approach */
+    }
+    .bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+@media (min-width: 1200px) {
+    /* Widen the fixed sidebar again */
+    .bs-docs-sidebar.affix-bottom,
+    .bs-docs-sidebar.affix {
+        width: 263px;
+    }
+}
+</style>
+<script type="text/javascript">
+$(function() {
+    'use strict';
+
+    $('.bs-docs-sidebar li').first().addClass('active');
+
+    $(document.body).scrollspy({target: '.bs-docs-sidebar'});
+
+    $('.bs-docs-sidebar').affix();
+});
+</script>
+</head>
+<body>
+<div id="content" class="container">
+<div class="row"><div class="col-md-9"><h1 class="title"></h1>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> temples/shrines</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Sensō-ji (金龍山浅草寺)</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+probably good place to start is <a href="#sec-1-1-3-1">Kaminarimon (雷門)</a>
+</p>
+</div>
+<div id="outline-container-sec-1-1-1" class="outline-4">
+<h4 id="sec-1-1-1"><span class="section-number-4">1.1.1</span> location</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.4656433987407!2d139.7966553!3d35.7147651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec1a4463df1%3A0x6c0d289a8292810d!2zU2Vuc8WNLWpp!5e0!3m2!1sen!2sat!4v1473520594773" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+<div id="outline-container-sec-1-1-2" class="outline-4">
+<h4 id="sec-1-1-2"><span class="section-number-4">1.1.2</span> links</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<p>
+<a href="https://en.wikipedia.org/wiki/Sens%C5%8D-ji">https://en.wikipedia.org/wiki/Sens%C5%8D-ji</a>
+</p>
+</div>
+</div>
+<div id="outline-container-sec-1-1-3" class="outline-4">
+<h4 id="sec-1-1-3"><span class="section-number-4">1.1.3</span> places</h4>
+<div class="outline-text-4" id="text-1-1-3">
+</div><ol class="org-ol"><li><a id="sec-1-1-3-1" name="sec-1-1-3-1"></a>Kaminarimon (雷門)<br ><div class="outline-text-5" id="text-1-1-3-1">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.179588906672!2d139.79617009544458!3d35.71112146439711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec1a51901cb%3A0xd433deb418bca991!2sAsakusa+Kaminarimon!5e0!3m2!1sen!2sat!4v1473520442480" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</li></ol>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Asakusa Shrine (浅草神社)</h3>
+<div class="outline-text-3" id="text-1-2">
+</div><div id="outline-container-sec-1-2-1" class="outline-4">
+<h4 id="sec-1-2-1"><span class="section-number-4">1.2.1</span> links</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+<a href="https://en.wikipedia.org/wiki/Asakusa_Shrine">https://en.wikipedia.org/wiki/Asakusa_Shrine</a>
+</p>
+</div>
+</div>
+<div id="outline-container-sec-1-2-2" class="outline-4">
+<h4 id="sec-1-2-2"><span class="section-number-4">1.2.2</span> nearby</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+<a href="#sec-1-1">Sensō-ji (金龍山浅草寺)</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Meiji Jingu (明治神宮)</h3>
+<div class="outline-text-3" id="text-1-3">
+</div><div id="outline-container-sec-1-3-1" class="outline-4">
+<h4 id="sec-1-3-1"><span class="section-number-4">1.3.1</span> location</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25926.03940915273!2d139.6945265!3d35.683036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cb79a4c26e5%3A0x8fca893849103f73!2sMeiji+Jingu!5e0!3m2!1sen!2sat!4v1473513495877" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+<div id="outline-container-sec-1-3-2" class="outline-4">
+<h4 id="sec-1-3-2"><span class="section-number-4">1.3.2</span> links</h4>
+<div class="outline-text-4" id="text-1-3-2">
+<p>
+<a href="http://www.meijijingu.or.jp/english/about/1.html">http://www.meijijingu.or.jp/english/about/1.html</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3-3" class="outline-4">
+<h4 id="sec-1-3-3"><span class="section-number-4">1.3.3</span> nearby</h4>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Zōjō-ji (三縁山増上寺)</h3>
+<div class="outline-text-3" id="text-1-4">
+</div><div id="outline-container-sec-1-4-1" class="outline-4">
+<h4 id="sec-1-4-1"><span class="section-number-4">1.4.1</span> location</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.794937518727!2d139.74820789999998!3d35.6574236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbe91676c0b%3A0x88a4a86ddb1dbd24!2zWsWNasWNLWpp!5e0!3m2!1sen!2sat!4v1473519449815" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+<div id="outline-container-sec-1-4-2" class="outline-4">
+<h4 id="sec-1-4-2"><span class="section-number-4">1.4.2</span> links</h4>
+<div class="outline-text-4" id="text-1-4-2">
+<p>
+<a href="https://en.wikipedia.org/wiki/Z%C5%8Dj%C5%8D-ji">https://en.wikipedia.org/wiki/Z%C5%8Dj%C5%8D-ji</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> markets</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+<a href="http://www.shijou.metro.tokyo.jp/english/">wholesale market listing</a>
+</p>
+</div>
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Tsukiji Fish Market (築地市場)</h3>
+<div class="outline-text-3" id="text-2-1">
+</div><div id="outline-container-sec-2-1-1" class="outline-4">
+<h4 id="sec-2-1-1"><span class="section-number-4">2.1.1</span> location</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.4674471594344!2d139.76847811564792!3d35.66549043844165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889647120144f%3A0x57c9eadb7b62ef7f!2sTsukiji+Market!5e0!3m2!1sen!2sat!4v1473513948627" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+<div id="outline-container-sec-2-1-2" class="outline-4">
+<h4 id="sec-2-1-2"><span class="section-number-4">2.1.2</span> map</h4>
+<div class="outline-text-4" id="text-2-1-2">
+
+<figure>
+<p><img src="http://www.japan-guide.com/g16/3021_1607.gif" class="img-responsive" alt="3021_1607.gif">
+</p>
+</figure>
+</div>
+</div>
+<div id="outline-container-sec-2-1-3" class="outline-4">
+<h4 id="sec-2-1-3"><span class="section-number-4">2.1.3</span> links</h4>
+<div class="outline-text-4" id="text-2-1-3">
+<p>
+<a href="http://www.japan-guide.com/e/e3021.html">http://www.japan-guide.com/e/e3021.html</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> etiquette</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> paying respect at a shrine</h3>
+<div class="outline-text-3" id="text-3-1">
+</div><div id="outline-container-sec-3-1-1" class="outline-4">
+<h4 id="sec-3-1-1"><span class="section-number-4">3.1.1</span> at the archway</h4>
+<div class="outline-text-4" id="text-3-1-1">
+
+<figure>
+<p><img src="http://www.meijijingu.or.jp/english/img/your/Otorii.jpg" class="img-responsive" alt="Otorii.jpg">
+</p>
+</figure>
+<ol class="org-ol">
+<li>Bow once when entering.
+</li>
+<li>Bow once when leaving.
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-sec-3-1-2" class="outline-4">
+<h4 id="sec-3-1-2"><span class="section-number-4">3.1.2</span> at the font</h4>
+<div class="outline-text-4" id="text-3-1-2">
+
+<figure>
+<p><img src="http://www.meijijingu.or.jp/english/img/your/Temizuya.jpg" class="img-responsive" alt="Temizuya.jpg">
+</p>
+</figure>
+<ol class="org-ol">
+<li>Rinse your left hand.
+</li>
+<li>Rinse your right hand.
+</li>
+<li>Pour water into your left hand.
+</li>
+<li>Rinse your mouth.
+</li>
+<li>Rinse your left hand again.
+</li>
+<li>Rinse the dipper (allow the remaining water to run down the handle of the dipper).
+</li>
+</ol>
+
+<p>
+Please do not touch the dipper directly with your lips, and please do not throw coins into the water.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-1-3" class="outline-4">
+<h4 id="sec-3-1-3"><span class="section-number-4">3.1.3</span> at the main shrine buildings (Gehaiden)</h4>
+<div class="outline-text-4" id="text-3-1-3">
+
+<figure>
+<p><img src="http://www.meijijingu.or.jp/english/img/your/Gehaiden.jpg" class="img-responsive" alt="Gehaiden.jpg">
+</p>
+</figure>
+<ol class="org-ol">
+<li>You may put some coins into the offertory box.
+</li>
+<li>Bow twice.
+</li>
+<li>Clap your hands twice.
+</li>
+<li>You may make a wish if you like.
+</li>
+<li>Bow once again.
+</li>
+</ol>
+
+<p>
+Please do not take photos or videos close to the main shrine buildings.
+</p>
+
+<p>
+Please preserve the dignity of this place.
+Eating, drinking, or smoking in designated areas only.
+</p>
+
+<p>
+Please do not take photos or videos from inside the halls (i.e. no photographing or filming when there is a roof above your head).
+Photos from outside are permitted.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> nightlife</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Roppongi (六本木)</h3>
+<div class="outline-text-3" id="text-4-1">
+</div><div id="outline-container-sec-4-1-1" class="outline-4">
+<h4 id="sec-4-1-1"><span class="section-number-4">4.1.1</span> location</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.579124854414!2d139.72901391564787!3d35.662739738592414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b826ae3281d%3A0xf2a258ed2d09f4e!2sRoppongi+Station!5e0!3m2!1sen!2sat!4v1473515656105" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+<div id="outline-container-sec-4-1-2" class="outline-4">
+<h4 id="sec-4-1-2"><span class="section-number-4">4.1.2</span> links</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<p>
+<a href="http://gmap.jp/gmap/roppongi/en/">places</a>
+<a href="http://wikitravel.org/en/Tokyo/Roppongi">http://wikitravel.org/en/Tokyo/Roppongi</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> parks/gardens</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> Ueno Park (上野公園)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="badge park">park</span>&#xa0;<span class="badge temples">temples</span>&#xa0;<span class="badge shrines">shrines</span>&#xa0;<span class="badge museums">museums</span></span></h3>
+<div class="outline-text-3" id="text-5-1">
+</div><div id="outline-container-sec-5-1-1" class="outline-4">
+<h4 id="sec-5-1-1"><span class="section-number-4">5.1.1</span> map</h4>
+<div class="outline-text-4" id="text-5-1-1">
+
+<figure>
+<p><img src="http://www.japan-guide.com/g2/3019_map_03.gif" class="img-responsive" alt="3019_map_03.gif">
+</p>
+</figure>
+</div>
+</div>
+<div id="outline-container-sec-5-1-2" class="outline-4">
+<h4 id="sec-5-1-2"><span class="section-number-4">5.1.2</span> links</h4>
+<div class="outline-text-4" id="text-5-1-2">
+<p>
+<a href="http://www.japan-guide.com/e/e3019.html">http://www.japan-guide.com/e/e3019.html</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> Rikugien (六義園)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="badge garden">garden</span></span></h3>
+<div class="outline-text-3" id="text-5-2">
+</div><div id="outline-container-sec-5-2-1" class="outline-4">
+<h4 id="sec-5-2-1"><span class="section-number-4">5.2.1</span> links</h4>
+<div class="outline-text-4" id="text-5-2-1">
+<p>
+<a href="http://www.japan-guide.com/e/e3026.html">http://www.japan-guide.com/e/e3026.html</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5-3" class="outline-3">
+<h3 id="sec-5-3"><span class="section-number-3">5.3</span> Edo Castle (江戸城 Edo-jō)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="badge castle">castle</span></span></h3>
+<div class="outline-text-3" id="text-5-3">
+</div><div id="outline-container-sec-5-3-1" class="outline-4">
+<h4 id="sec-5-3-1"><span class="section-number-4">5.3.1</span> links</h4>
+<div class="outline-text-4" id="text-5-3-1">
+<p>
+<a href="https://en.wikipedia.org/wiki/Edo_Castle">https://en.wikipedia.org/wiki/Edo_Castle</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5-4" class="outline-3">
+<h3 id="sec-5-4"><span class="section-number-3">5.4</span> Koishikawa Korakuen (小石川後楽園)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="badge garden">garden</span></span></h3>
+<div class="outline-text-3" id="text-5-4">
+</div><div id="outline-container-sec-5-4-1" class="outline-4">
+<h4 id="sec-5-4-1"><span class="section-number-4">5.4.1</span> map</h4>
+<div class="outline-text-4" id="text-5-4-1">
+
+<figure>
+<p><img src="http://www.japan-guide.com/g7/3034_003_map_01.gif" class="img-responsive" alt="3034_003_map_01.gif">
+</p>
+</figure>
+</div>
+</div>
+<div id="outline-container-sec-5-4-2" class="outline-4">
+<h4 id="sec-5-4-2"><span class="section-number-4">5.4.2</span> location</h4>
+<div class="outline-text-4" id="text-5-4-2">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.8442650667753!2d139.7496667!3d35.7054498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c4646de5005%3A0x1b220216ae23c25e!2sKoishikawa+K%C5%8Drakuen+Garden!5e0!3m2!1sen!2sat!4v1473520268603" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5-5" class="outline-3">
+<h3 id="sec-5-5"><span class="section-number-3">5.5</span> Hanayashiki Amusement Park</h3>
+<div class="outline-text-3" id="text-5-5">
+</div><div id="outline-container-sec-5-5-1" class="outline-4">
+<h4 id="sec-5-5-1"><span class="section-number-4">5.5.1</span> links</h4>
+<div class="outline-text-4" id="text-5-5-1">
+<p>
+<a href="http://www.hanayashiki.net/e/">http://www.hanayashiki.net/e/</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5-6" class="outline-3">
+<h3 id="sec-5-6"><span class="section-number-3">5.6</span> Tokyo Dome City Attractions</h3>
+</div>
+</div>
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> theatre</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1"><span class="section-number-3">6.1</span> Kabuki-za (歌舞伎座)</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+prices range from 1000 to 2000 yen
+</p>
+</div>
+<div id="outline-container-sec-6-1-1" class="outline-4">
+<h4 id="sec-6-1-1"><span class="section-number-4">6.1.1</span> links&#xa0;&#xa0;&#xa0;<span class="tag"><span class="badge booking">booking</span></span></h4>
+<div class="outline-text-4" id="text-6-1-1">
+<p>
+<a href="http://www.kabuki-bito.jp/eng/contents/theatre/kabukiza.html">http://www.kabuki-bito.jp/eng/contents/theatre/kabukiza.html</a>
+<a href="http://www.kabuki-bito.jp/eng/docs/kabukiza_makumi_20160518.pdf">http://www.kabuki-bito.jp/eng/docs/kabukiza_makumi_20160518.pdf</a>
+<a href="https://blog.gaijinpot.com/kabukiza-theater-tickets/">https://blog.gaijinpot.com/kabukiza-theater-tickets/</a>
+<a href="https://tokyocheapo.com/entertainment/cheap-kabuki-tickets-tokyo/">https://tokyocheapo.com/entertainment/cheap-kabuki-tickets-tokyo/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-sec-6-1-2" class="outline-4">
+<h4 id="sec-6-1-2"><span class="section-number-4">6.1.2</span> location</h4>
+<div class="outline-text-4" id="text-6-1-2">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16814.021452988596!2d139.76685946119355!3d35.66848801247772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be74819406d%3A0x1e8b565e11fc118!2sKabuki-za!5e0!3m2!1sen!2sat!4v1473517580050" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> eating</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+<a href="http://www.japan-tourist-guide.com/japanese-food-guide.php">http://www.japan-tourist-guide.com/japanese-food-guide.php</a>
+</p>
+</div>
+</div>
+<div id="outline-container-sec-8" class="outline-2">
+<h2 id="sec-8"><span class="section-number-2">8</span> museums</h2>
+<div class="outline-text-2" id="text-8">
+</div><div id="outline-container-sec-8-1" class="outline-3">
+<h3 id="sec-8-1"><span class="section-number-3">8.1</span> mori art museum&#xa0;&#xa0;&#xa0;<span class="tag"><span class="badge art">art</span>&#xa0;<span class="badge space">space</span>&#xa0;<span class="badge universe">universe</span></span></h3>
+<div class="outline-text-3" id="text-8-1">
+</div><div id="outline-container-sec-8-1-1" class="outline-4">
+<h4 id="sec-8-1-1"><span class="section-number-4">8.1.1</span> links</h4>
+<div class="outline-text-4" id="text-8-1-1">
+<p>
+<a href="http://www.mori.art.museum/eng/">http://www.mori.art.museum/eng/</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-8-2" class="outline-3">
+<h3 id="sec-8-2"><span class="section-number-3">8.2</span> Miraikan&#xa0;&#xa0;&#xa0;<span class="tag"><span class="badge technology">technology</span>&#xa0;<span class="badge science">science</span></span></h3>
+<div class="outline-text-3" id="text-8-2">
+</div><div id="outline-container-sec-8-2-1" class="outline-4">
+<h4 id="sec-8-2-1"><span class="section-number-4">8.2.1</span> links</h4>
+<div class="outline-text-4" id="text-8-2-1">
+<p>
+<a href="https://www.miraikan.jst.go.jp/en/">https://www.miraikan.jst.go.jp/en/</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-9" class="outline-2">
+<h2 id="sec-9"><span class="section-number-2">9</span> buildings</h2>
+<div class="outline-text-2" id="text-9">
+</div><div id="outline-container-sec-9-1" class="outline-3">
+<h3 id="sec-9-1"><span class="section-number-3">9.1</span> tokyo sky tree</h3>
+<div class="outline-text-3" id="text-9-1">
+</div><div id="outline-container-sec-9-1-1" class="outline-4">
+<h4 id="sec-9-1-1"><span class="section-number-4">9.1.1</span> links</h4>
+<div class="outline-text-4" id="text-9-1-1">
+<p>
+<a href="http://www.tokyo-skytree.jp/en/">http://www.tokyo-skytree.jp/en/</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div><div class="col-md-3"><nav id="table-of-contents">
+<div id="text-table-of-contents" class="bs-docs-sidebar">
+<ul class="nav">
+<li><a href="#sec-1">1. temples/shrines</a>
+<ul class="nav">
+<li><a href="#sec-1-1">1.1. Sensō-ji (金龍山浅草寺)</a></li>
+<li><a href="#sec-1-2">1.2. Asakusa Shrine (浅草神社)</a></li>
+<li><a href="#sec-1-3">1.3. Meiji Jingu (明治神宮)</a></li>
+<li><a href="#sec-1-4">1.4. Zōjō-ji (三縁山増上寺)</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. markets</a>
+<ul class="nav">
+<li><a href="#sec-2-1">2.1. Tsukiji Fish Market (築地市場)</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. etiquette</a>
+<ul class="nav">
+<li><a href="#sec-3-1">3.1. paying respect at a shrine</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. nightlife</a>
+<ul class="nav">
+<li><a href="#sec-4-1">4.1. Roppongi (六本木)</a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5. parks/gardens</a>
+<ul class="nav">
+<li><a href="#sec-5-1">5.1. Ueno Park (上野公園)</a></li>
+<li><a href="#sec-5-2">5.2. Rikugien (六義園)</a></li>
+<li><a href="#sec-5-3">5.3. Edo Castle (江戸城 Edo-jō)</a></li>
+<li><a href="#sec-5-4">5.4. Koishikawa Korakuen (小石川後楽園)</a></li>
+<li><a href="#sec-5-5">5.5. Hanayashiki Amusement Park</a></li>
+<li><a href="#sec-5-6">5.6. Tokyo Dome City Attractions</a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6. theatre</a>
+<ul class="nav">
+<li><a href="#sec-6-1">6.1. Kabuki-za (歌舞伎座)</a></li>
+</ul>
+</li>
+<li><a href="#sec-7">7. eating</a></li>
+<li><a href="#sec-8">8. museums</a>
+<ul class="nav">
+<li><a href="#sec-8-1">8.1. mori art museum</a></li>
+<li><a href="#sec-8-2">8.2. Miraikan</a></li>
+</ul>
+</li>
+<li><a href="#sec-9">9. buildings</a>
+<ul class="nav">
+<li><a href="#sec-9-1">9.1. tokyo sky tree</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+</div></div></div>
+<footer id="postamble" class="">
+<div><p class="author">Author: Graf Manuel</p>
+<p class="date">Created: 2016-09-11 Sun 00:39</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org-mode</a> 8.3.5)</p>
+</div>
+</footer>
+</body>
+</html>

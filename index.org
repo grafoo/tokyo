@@ -1,0 +1,121 @@
+* temples/shrines
+** Sensō-ji (金龍山浅草寺)
+   probably good place to start is [[Kaminarimon (雷門)]]
+*** location
+    #+HTML: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.4656433987407!2d139.7966553!3d35.7147651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec1a4463df1%3A0x6c0d289a8292810d!2zU2Vuc8WNLWpp!5e0!3m2!1sen!2sat!4v1473520594773" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+*** links
+    https://en.wikipedia.org/wiki/Sens%C5%8D-ji
+*** places
+**** Kaminarimon (雷門)
+     #+HTML: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.179588906672!2d139.79617009544458!3d35.71112146439711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec1a51901cb%3A0xd433deb418bca991!2sAsakusa+Kaminarimon!5e0!3m2!1sen!2sat!4v1473520442480" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+** Asakusa Shrine (浅草神社)
+*** links
+    https://en.wikipedia.org/wiki/Asakusa_Shrine
+*** nearby
+    [[Sensō-ji (金龍山浅草寺)]]
+
+** Meiji Jingu (明治神宮)
+*** location
+    #+HTML: <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25926.03940915273!2d139.6945265!3d35.683036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cb79a4c26e5%3A0x8fca893849103f73!2sMeiji+Jingu!5e0!3m2!1sen!2sat!4v1473513495877" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+*** links
+    http://www.meijijingu.or.jp/english/about/1.html
+
+*** nearby
+
+** Zōjō-ji (三縁山増上寺)
+*** location
+    #+HTML: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.794937518727!2d139.74820789999998!3d35.6574236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbe91676c0b%3A0x88a4a86ddb1dbd24!2zWsWNasWNLWpp!5e0!3m2!1sen!2sat!4v1473519449815" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+*** links
+    https://en.wikipedia.org/wiki/Z%C5%8Dj%C5%8D-ji
+* markets
+  [[http://www.shijou.metro.tokyo.jp/english/][wholesale market listing]]
+** Tsukiji Fish Market (築地市場)
+*** location
+    #+HTML: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.4674471594344!2d139.76847811564792!3d35.66549043844165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889647120144f%3A0x57c9eadb7b62ef7f!2sTsukiji+Market!5e0!3m2!1sen!2sat!4v1473513948627" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+*** map
+    [[http://www.japan-guide.com/g16/3021_1607.gif]]
+*** links
+    http://www.japan-guide.com/e/e3021.html
+* etiquette
+** paying respect at a shrine
+*** at the archway
+    [[http://www.meijijingu.or.jp/english/img/your/Otorii.jpg]]
+    1. Bow once when entering.
+    2. Bow once when leaving.
+*** at the font
+    [[http://www.meijijingu.or.jp/english/img/your/Temizuya.jpg]]
+    1. Rinse your left hand.
+    2. Rinse your right hand.
+    3. Pour water into your left hand.
+    4. Rinse your mouth.
+    5. Rinse your left hand again.
+    6. Rinse the dipper (allow the remaining water to run down the handle of the dipper).
+
+    Please do not touch the dipper directly with your lips, and please do not throw coins into the water.
+
+*** at the main shrine buildings (Gehaiden)
+    [[http://www.meijijingu.or.jp/english/img/your/Gehaiden.jpg]]
+    1. You may put some coins into the offertory box.
+    2. Bow twice.
+    3. Clap your hands twice.
+    4. You may make a wish if you like.
+    5. Bow once again.
+
+    Please do not take photos or videos close to the main shrine buildings.
+
+    Please preserve the dignity of this place.
+    Eating, drinking, or smoking in designated areas only.
+
+    Please do not take photos or videos from inside the halls (i.e. no photographing or filming when there is a roof above your head).
+    Photos from outside are permitted.
+* nightlife
+** Roppongi (六本木)
+*** location
+    #+HTML: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.579124854414!2d139.72901391564787!3d35.662739738592414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b826ae3281d%3A0xf2a258ed2d09f4e!2sRoppongi+Station!5e0!3m2!1sen!2sat!4v1473515656105" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+*** links
+    [[http://gmap.jp/gmap/roppongi/en/][places]]
+    [[http://wikitravel.org/en/Tokyo/Roppongi]]
+* parks/gardens
+** Ueno Park (上野公園)                        :park:temples:shrines:museums:
+*** map
+    [[http://www.japan-guide.com/g2/3019_map_03.gif]]
+*** links
+    [[http://www.japan-guide.com/e/e3019.html]]
+** Rikugien (六義園)                                                 :garden:
+*** links
+    http://www.japan-guide.com/e/e3026.html
+** Edo Castle (江戸城 Edo-jō)                                        :castle:
+*** links
+    https://en.wikipedia.org/wiki/Edo_Castle
+** Koishikawa Korakuen (小石川後楽園)                                :garden:
+*** map
+    [[http://www.japan-guide.com/g7/3034_003_map_01.gif]]
+*** location
+    #+HTML: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.8442650667753!2d139.7496667!3d35.7054498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c4646de5005%3A0x1b220216ae23c25e!2sKoishikawa+K%C5%8Drakuen+Garden!5e0!3m2!1sen!2sat!4v1473520268603" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+** Hanayashiki Amusement Park
+*** links
+    http://www.hanayashiki.net/e/
+** Tokyo Dome City Attractions
+* theatre
+** Kabuki-za (歌舞伎座)
+   prices range from 1000 to 2000 yen
+*** links                                                           :booking:
+    http://www.kabuki-bito.jp/eng/contents/theatre/kabukiza.html
+    http://www.kabuki-bito.jp/eng/docs/kabukiza_makumi_20160518.pdf
+    https://blog.gaijinpot.com/kabukiza-theater-tickets/
+    https://tokyocheapo.com/entertainment/cheap-kabuki-tickets-tokyo/
+*** location
+    #+HTML: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16814.021452988596!2d139.76685946119355!3d35.66848801247772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be74819406d%3A0x1e8b565e11fc118!2sKabuki-za!5e0!3m2!1sen!2sat!4v1473517580050" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+* eating
+  http://www.japan-tourist-guide.com/japanese-food-guide.php
+* museums
+** mori art museum                                       :art:space:universe:
+*** links
+    http://www.mori.art.museum/eng/
+** Miraikan                                              :technology:science:
+*** links
+    https://www.miraikan.jst.go.jp/en/
+* buildings
+** tokyo sky tree
+*** links
+    http://www.tokyo-skytree.jp/en/
